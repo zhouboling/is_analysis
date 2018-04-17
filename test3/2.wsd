@@ -1,0 +1,8 @@
+@startuml
+class 借阅书籍{
+    +String  ISBN
+    +String  借阅者ID
+    +Data  借书时间
+    +Data  还书时间
+}
+@enduml

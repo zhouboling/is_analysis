@@ -1,0 +1,13 @@
+@startuml
+class 书籍信息{
+    +String  ISBN
+    +String 书名
+    +Number 总数
+    +String 作者
+    +Date 出版日期
+    +String 描述
+    +int 库存
+    +int 价格
+    +List<String> 分类
+}
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+class 借阅者{
+    +String  ID
+    +String  密码
+    +String  姓名
+    +String  性别
+}
+
+@enduml

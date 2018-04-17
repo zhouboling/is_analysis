@@ -1,0 +1,44 @@
+@startuml
+class 预订书籍{
+    +String  ISBN
+    +String  预订人ID
+    +Data  预订日期
+}
+class 借阅书籍{
+    +String  ISBN
+    +String  借阅者ID
+    +Data  借书时间
+    +Data  还书时间
+}
+
+class 借阅者{
+    +String  ID
+    +String  密码
+    +String  姓名
+    +String  性别
+}
+
+class 书籍信息{
+    +String  ISBN
+    +String 书名
+    +Number 总数
+    +String 作者
+    +Date 出版日期
+    +String 描述
+    +int 库存
+    +int 价格
+    +List<String> 分类
+}
+class 管理员{
+    String adminID
+    String 密码
+    String 姓名
+}
+
+
+借阅者"1" -- "N"预订书籍:预订、取消预订
+借阅者"1" -- "N"借阅书籍:借阅、归还书籍
+预订书籍 ..> 书籍信息
+借阅书籍 ..> 书籍信息
+书籍信息"N" -- "1"管理员:维护书籍信息
+@enduml

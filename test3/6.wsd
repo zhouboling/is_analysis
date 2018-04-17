@@ -1,0 +1,7 @@
+@startuml
+class 管理员{
+    String adminID
+    String 密码
+    String 姓名
+}
+@enduml
