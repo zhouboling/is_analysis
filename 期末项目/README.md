@@ -34,7 +34,7 @@
 
 ## 6. 用例及界面详细设计
 - ### [“学生列表”用例](./用例/学生列表.md),[界面](https://zhouboling.github.io/is_analysis/test6/ui/index.html)
-- ### [“试验成绩评定”用例](./用例/评定成绩.md),[界面](https://zhouboling.github.io/is_analysis/test6/ui/实验成绩评定.html)
+- ### [“实验成绩评定”用例](./用例/评定成绩.md),[界面](https://zhouboling.github.io/is_analysis/test6/ui/实验成绩评定.html)
 - ### [“学生成绩查询”用例](./用例/查看成绩.md),[界面](https://zhouboling.github.io/is_analysis/test6/ui/学生成绩查询.html)
 - ### [“修改密码”用例](./用例/修改密码.md),[界面](https://zhouboling.github.io/is_analysis/test6/ui/修改密码.html)
 - ### [“修改个人信息”用例](./用例/修改用户信息.md),[界面](https://zhouboling.github.io/is_analysis/test6/ui/修改个人信息.html)
