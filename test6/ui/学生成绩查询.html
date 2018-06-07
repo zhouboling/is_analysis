@@ -1,0 +1,881 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>学生成绩查询</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/学生成绩查询/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/学生成绩查询/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u528" class="ax_default label">
+        <div id="u528_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u529" class="text" style="visibility: visible;">
+          <p><span>实验成绩管理系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u530" class="ax_default label">
+        <div id="u530_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u531" class="text" style="visibility: visible;">
+          <p><span>欢迎周柏龄！</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u532" class="ax_default button">
+        <div id="u532_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u533" class="text" style="visibility: visible;">
+          <p><span>注销</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u534" class="ax_default droplist">
+        <select id="u534_input">
+          <option value="信息管理">信息管理</option>
+          <option value="查看个人信息">查看个人信息</option>
+          <option value="修改个人信息">修改个人信息</option>
+          <option value="修改密码">修改密码</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u535" class="ax_default box_1">
+        <div id="u535_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u536" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u537" class="ax_default droplist">
+        <select id="u537_input">
+          <option value="选择课程">选择课程</option>
+          <option value="JAVA">JAVA</option>
+          <option value="Android">Android</option>
+          <option selected value="信息系统分析">信息系统分析</option>
+          <option value="Linux">Linux</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u538" class="ax_default droplist">
+        <select id="u538_input">
+          <option value="选择学期">选择学期</option>
+          <option value="2016-2017第一学期">2016-2017第一学期</option>
+          <option value="2016-2017第二学期">2016-2017第二学期</option>
+          <option value="2017-2018第一学期">2017-2018第一学期</option>
+          <option selected value="2017-2018第二学期">2017-2018第二学期</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u539" class="ax_default button">
+        <div id="u539_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u540" class="text" style="visibility: visible;">
+          <p><span>成绩查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u541" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u542" class="ax_default table_cell">
+          <img id="u542_img" class="img " src="images/实验成绩评定/u357.png"/>
+          <!-- Unnamed () -->
+          <div id="u543" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u544" class="ax_default table_cell">
+          <img id="u544_img" class="img " src="images/实验成绩评定/u359.png"/>
+          <!-- Unnamed () -->
+          <div id="u545" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u546" class="ax_default table_cell">
+          <img id="u546_img" class="img " src="images/实验成绩评定/u361.png"/>
+          <!-- Unnamed () -->
+          <div id="u547" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u548" class="ax_default table_cell">
+          <img id="u548_img" class="img " src="images/实验成绩评定/u363.png"/>
+          <!-- Unnamed () -->
+          <div id="u549" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u550" class="ax_default label">
+        <div id="u550_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u551" class="text" style="visibility: visible;">
+          <p><span>实验1：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u552" class="ax_default label">
+        <div id="u552_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u553" class="text" style="visibility: visible;">
+          <p><span>********</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u554" class="ax_default link_button">
+        <div id="u554_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u555" class="text" style="visibility: visible;">
+          <p><span>&gt;&gt;地址错误</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u556" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u557" class="ax_default table_cell">
+          <img id="u557_img" class="img " src="images/实验成绩评定/u373.png"/>
+          <!-- Unnamed () -->
+          <div id="u558" class="text" style="visibility: visible;">
+            <p><span>评分项</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u559" class="ax_default table_cell">
+          <img id="u559_img" class="img " src="images/实验成绩评定/u375.png"/>
+          <!-- Unnamed () -->
+          <div id="u560" class="text" style="visibility: visible;">
+            <p><span>得分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u561" class="ax_default table_cell">
+          <img id="u561_img" class="img " src="images/实验成绩评定/u377.png"/>
+          <!-- Unnamed () -->
+          <div id="u562" class="text" style="visibility: visible;">
+            <p><span>点评</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u563" class="ax_default table_cell">
+          <img id="u563_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u564" class="text" style="visibility: visible;">
+            <p><span>项目完整性50%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u565" class="ax_default table_cell">
+          <img id="u565_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u566" class="text" style="visibility: visible;">
+            <p><span>40</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u567" class="ax_default table_cell">
+          <img id="u567_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u568" class="text" style="visibility: visible;">
+            <p><span>xxxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u569" class="ax_default table_cell">
+          <img id="u569_img" class="img " src="images/实验成绩评定/u385.png"/>
+          <!-- Unnamed () -->
+          <div id="u570" class="text" style="visibility: visible;">
+            <p><span>文档设计 30%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u571" class="ax_default table_cell">
+          <img id="u571_img" class="img " src="images/实验成绩评定/u387.png"/>
+          <!-- Unnamed () -->
+          <div id="u572" class="text" style="visibility: visible;">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u573" class="ax_default table_cell">
+          <img id="u573_img" class="img " src="images/实验成绩评定/u389.png"/>
+          <!-- Unnamed () -->
+          <div id="u574" class="text" style="visibility: visible;">
+            <p><span>xxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u575" class="ax_default table_cell">
+          <img id="u575_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u576" class="text" style="visibility: visible;">
+            <p><span>UI设计&nbsp; &nbsp;&nbsp; 20%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u577" class="ax_default table_cell">
+          <img id="u577_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u578" class="text" style="visibility: visible;">
+            <p><span>18</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u579" class="ax_default table_cell">
+          <img id="u579_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u580" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u581" class="ax_default table_cell">
+          <img id="u581_img" class="img " src="images/实验成绩评定/u397.png"/>
+          <!-- Unnamed () -->
+          <div id="u582" class="text" style="visibility: visible;">
+            <p><span>总分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u583" class="ax_default table_cell">
+          <img id="u583_img" class="img " src="images/实验成绩评定/u399.png"/>
+          <!-- Unnamed () -->
+          <div id="u584" class="text" style="visibility: visible;">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u585" class="ax_default table_cell">
+          <img id="u585_img" class="img " src="images/实验成绩评定/u401.png"/>
+          <!-- Unnamed () -->
+          <div id="u586" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u587" class="ax_default label">
+        <div id="u587_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u588" class="text" style="visibility: visible;">
+          <p><span>实验2：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u589" class="ax_default label">
+        <div id="u589_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u590" class="text" style="visibility: visible;">
+          <p><span>********</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u591" class="ax_default link_button">
+        <div id="u591_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u592" class="text" style="visibility: visible;">
+          <p><span>&gt;&gt;地址错误</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u593" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u594" class="ax_default table_cell">
+          <img id="u594_img" class="img " src="images/实验成绩评定/u373.png"/>
+          <!-- Unnamed () -->
+          <div id="u595" class="text" style="visibility: visible;">
+            <p><span>评分项</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u596" class="ax_default table_cell">
+          <img id="u596_img" class="img " src="images/实验成绩评定/u375.png"/>
+          <!-- Unnamed () -->
+          <div id="u597" class="text" style="visibility: visible;">
+            <p><span>得分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u598" class="ax_default table_cell">
+          <img id="u598_img" class="img " src="images/实验成绩评定/u377.png"/>
+          <!-- Unnamed () -->
+          <div id="u599" class="text" style="visibility: visible;">
+            <p><span>点评</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u600" class="ax_default table_cell">
+          <img id="u600_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u601" class="text" style="visibility: visible;">
+            <p><span>项目完整性50%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u602" class="ax_default table_cell">
+          <img id="u602_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u603" class="text" style="visibility: visible;">
+            <p><span>40</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u604" class="ax_default table_cell">
+          <img id="u604_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u605" class="text" style="visibility: visible;">
+            <p><span>xxxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u606" class="ax_default table_cell">
+          <img id="u606_img" class="img " src="images/实验成绩评定/u385.png"/>
+          <!-- Unnamed () -->
+          <div id="u607" class="text" style="visibility: visible;">
+            <p><span>文档设计 30%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u608" class="ax_default table_cell">
+          <img id="u608_img" class="img " src="images/实验成绩评定/u387.png"/>
+          <!-- Unnamed () -->
+          <div id="u609" class="text" style="visibility: visible;">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u610" class="ax_default table_cell">
+          <img id="u610_img" class="img " src="images/实验成绩评定/u389.png"/>
+          <!-- Unnamed () -->
+          <div id="u611" class="text" style="visibility: visible;">
+            <p><span>xxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u612" class="ax_default table_cell">
+          <img id="u612_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u613" class="text" style="visibility: visible;">
+            <p><span>UI设计&nbsp; &nbsp;&nbsp; 20%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u614" class="ax_default table_cell">
+          <img id="u614_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u615" class="text" style="visibility: visible;">
+            <p><span>18</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u616" class="ax_default table_cell">
+          <img id="u616_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u617" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u618" class="ax_default table_cell">
+          <img id="u618_img" class="img " src="images/实验成绩评定/u397.png"/>
+          <!-- Unnamed () -->
+          <div id="u619" class="text" style="visibility: visible;">
+            <p><span>总分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u620" class="ax_default table_cell">
+          <img id="u620_img" class="img " src="images/实验成绩评定/u399.png"/>
+          <!-- Unnamed () -->
+          <div id="u621" class="text" style="visibility: visible;">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u622" class="ax_default table_cell">
+          <img id="u622_img" class="img " src="images/实验成绩评定/u401.png"/>
+          <!-- Unnamed () -->
+          <div id="u623" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u624" class="ax_default label">
+        <div id="u624_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u625" class="text" style="visibility: visible;">
+          <p><span>批改日期：2018年6月5日16:56:15</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u626" class="ax_default label">
+        <div id="u626_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u627" class="text" style="visibility: visible;">
+          <p><span>批改日期：2018年6月5日16:56:15</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u628" class="ax_default label">
+        <div id="u628_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u629" class="text" style="visibility: visible;">
+          <p><span>实验3：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u630" class="ax_default label">
+        <div id="u630_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u631" class="text" style="visibility: visible;">
+          <p><span>********</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u632" class="ax_default link_button">
+        <div id="u632_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u633" class="text" style="visibility: visible;">
+          <p><span>&gt;&gt;地址错误</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u634" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u635" class="ax_default table_cell">
+          <img id="u635_img" class="img " src="images/实验成绩评定/u373.png"/>
+          <!-- Unnamed () -->
+          <div id="u636" class="text" style="visibility: visible;">
+            <p><span>评分项</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u637" class="ax_default table_cell">
+          <img id="u637_img" class="img " src="images/实验成绩评定/u375.png"/>
+          <!-- Unnamed () -->
+          <div id="u638" class="text" style="visibility: visible;">
+            <p><span>得分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u639" class="ax_default table_cell">
+          <img id="u639_img" class="img " src="images/实验成绩评定/u377.png"/>
+          <!-- Unnamed () -->
+          <div id="u640" class="text" style="visibility: visible;">
+            <p><span>点评</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u641" class="ax_default table_cell">
+          <img id="u641_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u642" class="text" style="visibility: visible;">
+            <p><span>项目完整性50%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u643" class="ax_default table_cell">
+          <img id="u643_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u644" class="text" style="visibility: visible;">
+            <p><span>40</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u645" class="ax_default table_cell">
+          <img id="u645_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u646" class="text" style="visibility: visible;">
+            <p><span>xxxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u647" class="ax_default table_cell">
+          <img id="u647_img" class="img " src="images/实验成绩评定/u385.png"/>
+          <!-- Unnamed () -->
+          <div id="u648" class="text" style="visibility: visible;">
+            <p><span>文档设计 30%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u649" class="ax_default table_cell">
+          <img id="u649_img" class="img " src="images/实验成绩评定/u387.png"/>
+          <!-- Unnamed () -->
+          <div id="u650" class="text" style="visibility: visible;">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u651" class="ax_default table_cell">
+          <img id="u651_img" class="img " src="images/实验成绩评定/u389.png"/>
+          <!-- Unnamed () -->
+          <div id="u652" class="text" style="visibility: visible;">
+            <p><span>xxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u653" class="ax_default table_cell">
+          <img id="u653_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u654" class="text" style="visibility: visible;">
+            <p><span>UI设计&nbsp; &nbsp;&nbsp; 20%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u655" class="ax_default table_cell">
+          <img id="u655_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u656" class="text" style="visibility: visible;">
+            <p><span>18</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u657" class="ax_default table_cell">
+          <img id="u657_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u658" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u659" class="ax_default table_cell">
+          <img id="u659_img" class="img " src="images/实验成绩评定/u397.png"/>
+          <!-- Unnamed () -->
+          <div id="u660" class="text" style="visibility: visible;">
+            <p><span>总分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u661" class="ax_default table_cell">
+          <img id="u661_img" class="img " src="images/实验成绩评定/u399.png"/>
+          <!-- Unnamed () -->
+          <div id="u662" class="text" style="visibility: visible;">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u663" class="ax_default table_cell">
+          <img id="u663_img" class="img " src="images/实验成绩评定/u401.png"/>
+          <!-- Unnamed () -->
+          <div id="u664" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u665" class="ax_default label">
+        <div id="u665_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u666" class="text" style="visibility: visible;">
+          <p><span>批改日期：2018年6月5日16:56:15</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u667" class="ax_default label">
+        <div id="u667_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u668" class="text" style="visibility: visible;">
+          <p><span>实验4：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u669" class="ax_default label">
+        <div id="u669_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u670" class="text" style="visibility: visible;">
+          <p><span>********</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u671" class="ax_default link_button">
+        <div id="u671_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u672" class="text" style="visibility: visible;">
+          <p><span>&gt;&gt;地址错误</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u673" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u674" class="ax_default table_cell">
+          <img id="u674_img" class="img " src="images/实验成绩评定/u373.png"/>
+          <!-- Unnamed () -->
+          <div id="u675" class="text" style="visibility: visible;">
+            <p><span>评分项</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u676" class="ax_default table_cell">
+          <img id="u676_img" class="img " src="images/实验成绩评定/u375.png"/>
+          <!-- Unnamed () -->
+          <div id="u677" class="text" style="visibility: visible;">
+            <p><span>得分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u678" class="ax_default table_cell">
+          <img id="u678_img" class="img " src="images/实验成绩评定/u377.png"/>
+          <!-- Unnamed () -->
+          <div id="u679" class="text" style="visibility: visible;">
+            <p><span>点评</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u680" class="ax_default table_cell">
+          <img id="u680_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u681" class="text" style="visibility: visible;">
+            <p><span>项目完整性50%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u682" class="ax_default table_cell">
+          <img id="u682_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u683" class="text" style="visibility: visible;">
+            <p><span>40</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u684" class="ax_default table_cell">
+          <img id="u684_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u685" class="text" style="visibility: visible;">
+            <p><span>xxxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u686" class="ax_default table_cell">
+          <img id="u686_img" class="img " src="images/实验成绩评定/u385.png"/>
+          <!-- Unnamed () -->
+          <div id="u687" class="text" style="visibility: visible;">
+            <p><span>文档设计 30%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u688" class="ax_default table_cell">
+          <img id="u688_img" class="img " src="images/实验成绩评定/u387.png"/>
+          <!-- Unnamed () -->
+          <div id="u689" class="text" style="visibility: visible;">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u690" class="ax_default table_cell">
+          <img id="u690_img" class="img " src="images/实验成绩评定/u389.png"/>
+          <!-- Unnamed () -->
+          <div id="u691" class="text" style="visibility: visible;">
+            <p><span>xxxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u692" class="ax_default table_cell">
+          <img id="u692_img" class="img " src="images/实验成绩评定/u379.png"/>
+          <!-- Unnamed () -->
+          <div id="u693" class="text" style="visibility: visible;">
+            <p><span>UI设计&nbsp; &nbsp;&nbsp; 20%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u694" class="ax_default table_cell">
+          <img id="u694_img" class="img " src="images/实验成绩评定/u381.png"/>
+          <!-- Unnamed () -->
+          <div id="u695" class="text" style="visibility: visible;">
+            <p><span>18</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u696" class="ax_default table_cell">
+          <img id="u696_img" class="img " src="images/实验成绩评定/u383.png"/>
+          <!-- Unnamed () -->
+          <div id="u697" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u698" class="ax_default table_cell">
+          <img id="u698_img" class="img " src="images/实验成绩评定/u397.png"/>
+          <!-- Unnamed () -->
+          <div id="u699" class="text" style="visibility: visible;">
+            <p><span>总分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u700" class="ax_default table_cell">
+          <img id="u700_img" class="img " src="images/实验成绩评定/u399.png"/>
+          <!-- Unnamed () -->
+          <div id="u701" class="text" style="visibility: visible;">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u702" class="ax_default table_cell">
+          <img id="u702_img" class="img " src="images/实验成绩评定/u401.png"/>
+          <!-- Unnamed () -->
+          <div id="u703" class="text" style="visibility: visible;">
+            <p><span>xxxxxx</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u704" class="ax_default label">
+        <div id="u704_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u705" class="text" style="visibility: visible;">
+          <p><span>批改日期：2018年6月5日16:56:15</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u706" class="ax_default icon">
+        <img id="u706_img" class="img " src="images/home/u15.png"/>
+        <!-- Unnamed () -->
+        <div id="u707" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
