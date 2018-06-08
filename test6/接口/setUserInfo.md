@@ -19,8 +19,8 @@
 - 请求实例：
 
         {
-            "id":"21048329823",
-            "github_username":"ABCDE",            
+            "id":"201510414429",
+            "github_username":"zhouboling",            
         }
         
 - 请求参数说明:        

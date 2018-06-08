@@ -32,7 +32,7 @@
                 "GITHUB_USERNAME": "Chinajuedui",
                 "STUDENT_ID": "201510315203",
                 "CLASS": "软件(本)15-1",
-                "NAME": "陈松华",
+                "NAME": "周柏龄",
                 "UPDATE_DATE": "2018-04-02 13:48:01"},
                 {
                 ...其他学生

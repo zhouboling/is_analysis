@@ -30,8 +30,8 @@
             "info": null,    
             "student_id": "201510315203", 
             "github_username": "chinajuedui", 
-            "class": "软件(本)15-1", 
-            "name": "陈松华", 
+            "class": "软件(本)15-4", 
+            "name": "周柏龄", 
             "total": 6,
             "avgresult":90.5,       
             "data": [
